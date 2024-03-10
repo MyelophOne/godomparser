@@ -1,9 +1,8 @@
 # godomparser
 
-JavaScript-like HTML parser for Go language. HTML parsers exist for each programming language, but their usage differs. This package can use natural if know the JavaScript.
+JavaScript-like HTML parser for Golang.
 
 ## Usage
-
 
 ```go
 
