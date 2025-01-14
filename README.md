@@ -14,7 +14,7 @@ func main() {
     text := "<html><head></head><body></body></html>"
 
     // Parse text HTML
-    document, err := saihon.Parse(strings.NewReader(text))
+    document, err := godomparser.Parse(strings.NewReader(text))
     if err != nil {
        return
     }
